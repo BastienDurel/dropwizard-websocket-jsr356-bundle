@@ -24,6 +24,14 @@ Add the maven dependency:
       <artifactId>dropwizard-websocket-jsr356-bundle</artifactId>
       <version>4.0.0</version>
     </dependency>
+
+For Dropwizard 3.x, based on Java 11 but with javax JEE, use: 
+
+    <dependency>
+      <groupId>be.tomcools</groupId>
+      <artifactId>dropwizard-websocket-jsr356-bundle</artifactId>
+      <version>3.0.0</version>
+    </dependency>
     
 This project used to contain an implementation for Dropwizard 2.x, based on Java 8.
 While we are deprecating that and no longer supporting it, it's still available.
