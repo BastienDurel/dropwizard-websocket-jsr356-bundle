@@ -20,3 +20,5 @@ reports/
 # OS hidden files
 .DS_Store
 atlassian-ide-plugin.xml
+/.apt_generated/
+/.apt_generated_tests/
